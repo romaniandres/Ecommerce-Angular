@@ -1,0 +1,9 @@
+<div class="my-5">
+    <div class="d-flex flex-wrap justify-content-between">
+        <div *ngFor="let product of products" class="product">
+            <img (click)="redirectToDescription(product.id)" src="../../../assets/img/{{ product.img }}.jpg" alt="" style="width: 100%; height: 250px;">
+            <h5 class="card-title m-3">{{ product.name }}</h5>
+            <p class="text-secondary mx-3">${{ product.price }}</p>
+        </div>
+    </div>
+</div>

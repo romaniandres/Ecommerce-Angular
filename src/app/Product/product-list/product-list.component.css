@@ -1,0 +1,21 @@
+.product {
+    width: 23%;
+}
+
+@media (max-width: 1200px) {
+    .product {
+        width: 33%;
+    }
+}
+
+@media (max-width: 900px) {
+    .product {
+        width: 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    .product {
+        width: 100%;
+    }
+}
